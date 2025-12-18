@@ -1,0 +1,25 @@
+{
+    "tid": 1,
+    "div": "EventDescriptor",
+    "msg": "Call",
+    "ex": [{
+        "msg": "The object of type 'PawnControl' has been destroyed but you are still trying to access it.
+                Your script should either check if it is null or you should not destroy the object.",
+        "stack": "  at (wrapper managed-to-native) UnityEngine.Component.get_transform(UnityEngine.Component)
+                    at PartOfBoard.ResetBoard () [0x0000d] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Ludo Ultimate\/Scripts_GiantLudo\/UI\/PartOfBoard.cs:123
+  					at GamePlayScreen.ResetData (System.Boolean isPlayerOnly) [0x0006e] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Ludo Ultimate\/Scripts_GiantLudo\/GamePlay\/GamePlayScreen.cs:1090
+  					at GamePlayScreen.SetRoomDataAndPlay (GameStartDataResp currentRoomData) [0x000ac] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Ludo Ultimate\/Scripts_GiantLudo\/GamePlay\/GamePlayScreen.cs:745
+                    at searchingPanel.ResponseOfgameStart (BestHTTP.SocketIO.Socket socket, BestHTTP.SocketIO.Packet packet, System.Object[] args) [0x0003d] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Ludo Ultimate\/Scripts_GiantLudo\/UI\/searchingPanel.cs:143
+  					at BestHTTP.SocketIO.Events.EventDescriptor.Call (BestHTTP.SocketIO.Socket socket, BestHTTP.SocketIO.Packet packet, System.Object[] args) [0x00050] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/SocketIO\/Events\/EventDescriptor.cs:74 "
+    }],
+    "stack": "  at SocketIO.Events.EventDescriptor.Call (SocketIO.Socket socket, SocketIO.Packet packet, System.Object[] args) [0x0008a] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/SocketIO\/Events\/EventDescriptor.cs:83   at SocketIO.Events.EventTable.Call (System.String eventName, SocketIO.Packet packet, System.Object[] args) [0x00049] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/SocketIO\/Events\/EventTable.cs:85   at SocketIO.Events.EventTable.Call (SocketIO.Packet packet) [0x00081] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/SocketIO\/Events\/EventTable.cs:113   at SocketIO.Socket.SocketIO.ISocket.OnPacket (SocketIO.Packet packet) [0x001a3] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/SocketIO\/Socket.cs:426   at SocketIO.SocketManager.SocketIO.IManager.OnPacket (SocketIO.Packet packet) [0x00126] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/SocketIO\/SocketManager.cs:578   at SocketIO.Transports.WebSocketTransport.OnPacket (SocketIO.Packet packet) [0x0008c] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/SocketIO\/Transports\/WebSocketTransport.cs:374   at SocketIO.Transports.WebSocketTransport.OnMessage (WebSocket.WebSocket ws, System.String message) [0x00084] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/SocketIO\/Transports\/WebSocketTransport.cs:152   at WebSocket.OverHTTP1.<OnInternalRequestUpgraded>b__15_0 (WebSocket.WebSocketResponse ws, System.String msg) [0x0000d] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/WebSocket\/Implementations\/OverHTTP1.cs:283   at WebSocket.WebSocketResponse.Core.IProtocol.HandleEvents () [0x0008b] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/WebSocket\/WebSocketResponse.cs:537   at Core.ProtocolEventHelper.ProcessQueue () [0x00070] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/Core\/ProtocolEvents.cs:69   at HTTPManager.OnUpdate () [0x0000a] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/HTTPManager.cs:416   at HTTPUpdateDelegator.Update () [0x00014] in \/Users\/Sagar\/Projects\/LudoGiant\/LocalLudoGiant\/Assets\/Best_HTTP\/Source\/HTTPUpdateDelegator.cs:171 ",
+    "ctxs": [],
+    "t": 637903070955732340,
+    "ll": "Exception",
+    "bh": 1
+}
+UnityEngine.Debug: LogError(object)
+BestHTTP.Logger.UnityOutput: Write(BestHTTP.Logger.Loglevels, string)(at Assets / Best_HTTP / Source / Logger / UnityOutput.cs: 22)
+BestHTTP.Logger.ThreadedLogger: ThreadFunc()(at Assets / Best_HTTP / Source / Logger / ThreadedLogger.cs: 130)
+BestHTTP.PlatformSupport.Threading.ThreadedRunner / < > c__DisplayClass5_0: < RunLongLiving > b__0(object)(at Assets / Best_HTTP / Source / PlatformSupport / Threading / ThreadedRunner.cs: 98)
+System.Threading.ThreadHelper: ThreadStart(object)

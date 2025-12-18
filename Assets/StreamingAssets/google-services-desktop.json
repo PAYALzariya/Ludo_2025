@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "975921940409",
+    "project_id": "ludobar-e8bce",
+    "storage_bucket": "ludobar-e8bce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975921940409:android:6946af2c8f3ec4e322d868",
+        "android_client_info": {
+          "package_name": "com.deniyal.ludobaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975921940409-59ou1da2ebb6mekvo6msboaqmnhh1um6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoGHqK56Urg9zpgwaNPv7vdhPtPMiEtkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975921940409-59ou1da2ebb6mekvo6msboaqmnhh1um6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

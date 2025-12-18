@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b62d788e1fa4cc7a71fe94ffd1844b, type: 3}
+  m_Name: GameAsset
+  m_EditorClassIdentifier: 
+  getWithdrawData:
+    depositAmount: 0
+    winAmount: 0
+    processingFee: 0
+    upiOption: 1
+    bankAccountOption: 1
+    paytmOption: 0
+    upi: 
+    accountNumber: 
+    ifscCode: 
+    defaultOption: 
+    isChargeable: 0
+    minAmount: 0
+    maxAmount: 0
+    upiCharges:
+      OneToThousand: 1
+      aboveThousand: 1
+    bankCharges:
+      OneToThousand: 1
+      aboveThousand: 1
+  SavedLoginData:
+    username: guest_16552
+    playerId: 6409601df6da6e76bbffe564
+    userId: 96783866
+    name: guest_16552
+    email: guest_16552@gmail.com
+    password: 
+    phnoCode: +91
+    phno: 
+    profilePic: 
+    avatar: 0
+    role: user
+    loginToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNjQwOTYwMWRmNmRhNmU3NmJiZmZlNTY0IiwiaWF0IjoxNjc4NDIyMjAzLCJleHAiOjE3MDk5NTgyMDN9.2IzbYQwjFiUXbebzPV-1Sg46pxqEqsUYsS8sSmbsCW4
+    socketId: kwRjN2Km8QbwGUQzAANY
+    country: IN
+    reference_refferal_id: 
+    reference_refferal_code: 
+    refferal_code: 3P2AGFAXSV
+    referral_code_amount: 0
+    referral_code_join_user: 0
+    totalBalance: 0
+    deviceToken: f23882cd59997eac692277f985b2267b9a240d42
+    deviceType: android
+    createdAt: 2023-03-09T04:27:09.043Z
+    updatedAt: 2023-03-10T04:40:53.401Z
+    _id: 6409601df6da6e76bbffe564
+    isActive: 1
+    isDeleted: 0
+    isLogin: 1
+    isOnline: 1
+    isVerified: 1
+    IscheatEnable: 0
+    isGmailLogin: 1
+    refer: 1
+    noticeStatus: 1
+    fcmRegistrationToken: 
+    defualtCashForNewPlayer: 0
+    isEmailVerified: 0
+    otpSenderId: 
+    isFirstDeposit: 0
+    isRestricted: 0
+    noticeText: Refer and Earn Unlimited<br><br>2% Bonus on every game played by
+      your referee.<br><br>|| Every Month's Leader Board prize ||<br><br>(1 Point
+      => 100 Coin Bet)<br><br>5100/- 1st Rank<br><br>2100/- 2nd Rank<br><br>1100/-
+      3rd Rank<br><br>|| Best Of Luck ||
+    promoImages: []
+    isWalletEnable: 1
+    metaUrl: 
+    twitterUrl: 
+    instaUrl: 
+    pinterestUrl: 
+    whatsappUrl: https://api.whatsapp.com/send?phone=+916351050358&text=hello
+    telegramUrl: 
+    youtubeUrl: https://youtube.com/channel/UCJdfXCZu2jT6Yv0PHo2Ug2w
+    customerCareNumber: +916351050358
+    updatedAPKLink: https://play.google.com/store/apps/details?id=com.ludo.gaint
+    win: 0
+    isRegistered: 1
+    registerAndGetRewardText: 
+    privacy_policy: https://ludogaint.com/privacy-policy/
+    terms_conditions: https://ludogaint.com/terms-conditions/
+    states: []
+    bonusAmount: 0
+    isUnreadTicket: 0
+    maxBlockPlayersCount: 5
+  gameStartDataResp:
+    gameStarted: 1
+    selectedGoti: 
+    playerCount: 0
+    players: []
+    tableId: 
+    boardId: 
+    tournamentId: 
+    uniqueId: 
+    nameSpace: 
+    entryFee: 0
+    priceAmount: 0
+  profileAvatarList:
+    profileAvatarSprite:
+    - {fileID: 21300000, guid: ab9672c71135f4043878572634162e3d, type: 3}
+    - {fileID: 21300000, guid: 8178aea5b7d1e48408f73be4dadc450c, type: 3}
+    - {fileID: 21300000, guid: 1ae4c0b345e52e94d9f95f5531216220, type: 3}
+    - {fileID: 21300000, guid: 730ad993b566afd479659c816319261e, type: 3}
+    - {fileID: 21300000, guid: 02bb4c97ac3a90543bd12c4309f1417b, type: 3}
+    - {fileID: 21300000, guid: 716c70bb5880f804b962f6ed7fe54c5e, type: 3}
+    - {fileID: 21300000, guid: 73324a98517dd404282aa4984999e438, type: 3}
+    - {fileID: 21300000, guid: d1b3370bb71090f49b083c801a16c68e, type: 3}
+    - {fileID: 21300000, guid: 4a5eead1cda744c2ab06fefff7f4746e, type: 3}
+    - {fileID: 21300000, guid: 755f1197fcaff407dba9488977753f1d, type: 3}
+  transactionData:
+    message: 
+    time: 
+    transactionId: 
+    amount: 0
+    status: 
+    isFirstDeposit: 0
+  uniqueId: 
+  spDefaultImage: {fileID: 21300000, guid: 684a0a6313901d84fbe08cc865c446f1, type: 3}
+  spDefaultBannerImage: {fileID: 21300000, guid: c979122eb203cd943a4c0893c1d5e402, type: 3}

@@ -1,0 +1,1450 @@
+
+
+ Emit name GetAllTable  : {"playerId": "6879c861fd3aa3ab3baa7606","tableType": "2","selectedGoti": "1","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","productName": "Ludo 3.0 Ludo 3.0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+sHCTxZrMVA1riyHCvEb5MA=="}
+
+On Disable called...
+
+GetAllTable  respnose  : [{"status":"succe0ss","message":"All table record.","result":{"tableData":[{"_id":"664f1e2727aa3d0040a5bfa3","entryFee":"10","totalPrice":17,"totalCom":3,"goti":"1","onlineUser":0},{"_id":"66bb34b830bf5b04dc0e2929","entryFee":"43","totalPrice":77.4,"totalCom":8.6,"goti":"1","onlineUser":0},{"_id":"66bb35aa30bf5b04dc0e294f","entryFee":"45","totalPrice":81,"totalCom":9,"goti":"1","onlineUser":0},{"_id":"66bb37e730bf5b04dc0e2b23","entryFee":"55","totalPrice":99,"totalCom":11,"goti":"1","onlineUser":0},{"_id":"6787f56cdfc308d76a9aa8b8","entryFee":"555","totalPrice":777,"totalCom":333,"goti":"1","onlineUser":0},{"_id":"672e101053357d00f743bd32","entryFee":"100000","totalPrice":180000,"totalCom":20000,"goti":"1","onlineUser":0}],"nameSpace":"normal","tableType":2,"selectedGoti":1,"goti1OnlinePlayer":0,"goti2OnlinePlayer":0,"goti3OnlinePlayer":0,"goti4OnlinePlayer":0}}]
+
+ Emit name GetAllTable  : {"playerId": "6879c861fd3aa3ab3baa7606","tableType": "2","selectedGoti": "2","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","productName": "Ludo 3.0 Ludo 3.0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+eZaV5FadzmiqkVOxVF3W1w=="}
+
+GetAllTable  respnose  : [{"status":"success","message":"All table record.","result":{"tableData":[{"_id":"619c88d71d82ba7851dc9a2f","entryFee":"15","totalPrice":27,"totalCom":3,"goti":"2","onlineUser":0},{"_id":"61c1cd087b1707218f0eb7db","entryFee":"25","totalPrice":45,"totalCom":5,"goti":"2","onlineUser":0},{"_id":"61459657ce0b82452f50a53e","entryFee":"40","totalPrice":72,"totalCom":8,"goti":"2","onlineUser":0},{"_id":"61458c7bce0b82452f50a025","entryFee":"90","totalPrice":162,"totalCom":18,"goti":"2","onlineUser":0},{"_id":"61458c87ce0b82452f50a02e","entryFee":"200","totalPrice":360,"totalCom":40,"goti":"2","onlineUser":0},{"_id":"61a9d34f86b31007177b427e","entryFee":"400","totalPrice":720,"totalCom":80,"goti":"2","onlineUser":0},{"_id":"61458c93ce0b82452f50a04b","entryFee":"600","totalPrice":1080,"totalCom":120,"goti":"2","onlineUser":0},{"_id":"61c1cd707b1707218f0eb88e","entryFee":"1500","totalPrice":2700,"totalCom":300,"goti":"2","onlineUser":0},{"_id":"61c1cb817b1707218f0eb583","entryFee":"3500","totalPrice":6300,"totalCom":700,"goti":"2","onlineUser":0}],"nameSpace":"normal","tableType":2,"selectedGoti":2,"goti1OnlinePlayer":0,"goti2OnlinePlayer":0,"goti3OnlinePlayer":0,"goti4OnlinePlayer":0}}]
+
+ Emit name  EnterRoom : {"tableId": "61c1cd087b1707218f0eb7db","playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","osName": "android","appVersion": "1.0.1","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+ufCrUa1HTuT2z9CYdIBKkQ=="}
+
+EnterRoom  response  :[{"status":"success","message":"Get uniqueId.","result":{"uniqueId":"","selectedColor":[],"colorName":["yellow","blue","red","green"],"colorId":[0,1,2,3]}}]
+
+
+ Emit name  JoinRoom : {"playerId": "6879c861fd3aa3ab3baa7606","tableId": "61c1cd087b1707218f0eb7db","uniqueId": "","userSelectGoti": "red","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","productName": "Ludo 3.0 Ludo 3.0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+MFTArDF7DSoiICWfkFfBJg=="}
+
+JoinRoom  response  :[{"status":"success","message":"Player Room Joint successfully.","result":{"roomId":"69185a4efd3aa3ab3b6b0cb0","turnTime":30,"runningGameData":{}}}]
+
+UpdateTableListingData Broadcast response  :["UpdateTableListingData",{"tableId":"61c1cd087b1707218f0eb7db","onlinePlayer":1,"goti1OnlinePlayer":0,"goti2OnlinePlayer":1,"goti3OnlinePlayer":0,"goti4OnlinePlayer":0}]
+
+StartTimer Broadcast response  :["StartTimer",{"tableId":"61c1cd087b1707218f0eb7db","uniqueId":"","timer":29,"joiners":[{"playerName":"guest_75042","id":"6879c861fd3aa3ab3baa7606","avatar":0,"profilePic":""}]}]
+
+StartTimer Broadcast response  :["StartTimer",{"tableId":"61c1cd087b1707218f0eb7db","uniqueId":"","timer":28,"joiners":[{"playerName":"guest_75042","id":"6879c861fd3aa3ab3baa7606","avatar":0,"profilePic":""}]}]
+
+StartTimer Broadcast response  :["StartTimer",{"tableId":"61c1cd087b1707218f0eb7db","uniqueId":"","timer":27,"joiners":[{"playerName":"guest_75042","id":"6879c861fd3aa3ab3baa7606","avatar":0,"profilePic":""}]}]
+
+StartTimer Broadcast response  :["StartTimer",{"tableId":"61c1cd087b1707218f0eb7db","uniqueId":"","timer":26,"joiners":[{"playerName":"guest_75042","id":"6879c861fd3aa3ab3baa7606","avatar":0,"profilePic":""}]}]
+
+StartTimer Broadcast response  :["StartTimer",{"tableId":"61c1cd087b1707218f0eb7db","uniqueId":"","timer":25,"joiners":[{"playerName":"guest_75042","id":"6879c861fd3aa3ab3baa7606","avatar":0,"profilePic":""}]}]
+
+UpdateTableListingData Broadcast response  :["UpdateTableListingData",{"tableId":"61c1cd087b1707218f0eb7db","onlinePlayer":2,"goti1OnlinePlayer":0,"goti2OnlinePlayer":2,"goti3OnlinePlayer":0,"goti4OnlinePlayer":0}]
+
+StartTimer Broadcast response  :["StartTimer",{"tableId":"61c1cd087b1707218f0eb7db","uniqueId":"","timer":24,"joiners":[{"playerName":"guest_75042","id":"6879c861fd3aa3ab3baa7606","avatar":0,"profilePic":""},{"playerName":"Rajdip","id":"66b49e9bd446f70660b6e1a5","avatar":0,"profilePic":"/admin/images/bot-images/1.png"}]}]
+
+
+
+GameStart Broadcast response  :["gameStart",{"players":["6879c861fd3aa3ab3baa7606","66b49e9bd446f70660b6e1a5"],"uniqueId":"","boardId":"69185a4efd3aa3ab3b6b0cb0","tableId":"61c1cd087b1707218f0eb7db","nameSpace":"normal","recentDiceValue":true}]
+
+ Emit name  JoinGame : {"playerId": "6879c861fd3aa3ab3baa7606","tableId": "61c1cd087b1707218f0eb7db","boardId": "69185a4efd3aa3ab3b6b0cb0","TournamentId": "","uniqueId": "","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","productName": "Ludo 3.0 Ludo 3.0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+KgL5QqnCAsNlneB4t0T0Pg=="}
+
+ Emit name GetAllTable     : {"playerId": "6879c861fd3aa3ab3baa7606","tableType": "2","selectedGoti": "1","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","productName": "Ludo 3.0 Ludo 3.0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+nagaEP0dgJySyJ3xSXrAIA=="}
+
+
+
+PlayerInfoList Broadcast response  :["playerInfoList",{"boardId":"69185a4efd3aa3ab3b6b0cb0","gamePlayercounts":"2 Players","gamePlaySelectedGoti":"2 Goti","winnerPrizeData":[{"Rank":1,"amount":"45.00"}],"playerInfo":[{"id":"6879c861fd3aa3ab3baa7606","username":"guest_75042","seatIndex":0,"tokenColor":"red","colorIndex":2,"tokens":[{"id":0,"startPos":0,"currentPos":0,"distance":0,"inAtTurn":-1,"color":"red"},{"id":1,"startPos":1,"currentPos":1,"distance":0,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":2,"distance":0,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":3,"distance":0,"inAtTurn":-1,"color":"red"}],"mobile":"xxxxx44866","profilePic":"","avatar":0},{"id":null,"username":null,"seatIndex":1,"tokenColor":"blue","colorIndex":1,"profilePic":null,"avatar":null},{"id":"66b49e9bd446f70660b6e1a5","username":"Rajdip","seatIndex":2,"tokenColor":"yellow","colorIndex":0,"tokens":[{"id":8,"startPos":8,"currentPos":8,"distance":0,"inAtTurn":-1,"color":"yellow"},{"id":9,"startPos":9,"currentPos":9,"distance":0,"inAtTurn":-1,"color":"yellow"},{"id":10,"startPos":10,"currentPos":10,"distance":0,"inAtTurn":-1,"color":"yellow"},{"id":11,"startPos":11,"currentPos":11,"distance":0,"inAtTurn":-1,"color":"yellow"}],"mobile":"xxx89877","profilePic":"/admin/images/bot-images/1.png","avatar":0},{"id":null,"username":null,"seatIndex":3,"tokenColor":"green","colorIndex":3,"profilePic":null,"avatar":null}]}]
+
+
+
+JoinGame respnose  : [{"status":"success","message":"Player Joint Game successfully.","result":{"boardId":"69185a4efd3aa3ab3b6b0cb0","turnTime":30}}]
+
+GetAllTable respnose  : [{"status":"success","message":"All table record.","result":{"tableData":[{"_id":"664f1e2727aa3d0040a5bfa3","entryFee":"10","totalPrice":17,"totalCom":3,"goti":"1","onlineUser":0},{"_id":"66bb34b830bf5b04dc0e2929","entryFee":"43","totalPrice":77.4,"totalCom":8.6,"goti":"1","onlineUser":0},{"_id":"66bb35aa30bf5b04dc0e294f","entryFee":"45","totalPrice":81,"totalCom":9,"goti":"1","onlineUser":0},{"_id":"66bb37e730bf5b04dc0e2b23","entryFee":"55","totalPrice":99,"totalCom":11,"goti":"1","onlineUser":0},{"_id":"6787f56cdfc308d76a9aa8b8","entryFee":"555","totalPrice":777,"totalCom":333,"goti":"1","onlineUser":0},{"_id":"672e101053357d00f743bd32","entryFee":"100000","totalPrice":180000,"totalCom":20000,"goti":"1","onlineUser":0}],"nameSpace":"normal","tableType":2,"selectedGoti":1,"goti1OnlinePlayer":0,"goti2OnlinePlayer":2,"goti3OnlinePlayer":0,"goti4OnlinePlayer":0}}]
+
+GameStartTimer Broadcast response  :["gameStartTimer",{"timer":4,"message":"Game will be start in ","boardId":"69185a4efd3aa3ab3b6b0cb0","boardNumber":"161"}]
+
+GameStartTimer Broadcast response  :["gameStartTimer",{"timer":3,"message":"Game will be start in ","boardId":"69185a4efd3aa3ab3b6b0cb0","boardNumber":"161"}]
+
+GameStartTimer Broadcast response  :["gameStartTimer",{"timer":2,"message":"Game will be start in ","boardId":"69185a4efd3aa3ab3b6b0cb0","boardNumber":"161"}]
+
+GameStartTimer Broadcast response  :["gameStartTimer",{"timer":1,"message":"Game will be start in ","boardId":"69185a4efd3aa3ab3b6b0cb0","boardNumber":"161"}]
+
+PlayerInfoList Broadcast response  :["playerInfoList",{"boardId":"69185a4efd3aa3ab3b6b0cb0","gamePlayercounts":"2 Players","gamePlaySelectedGoti":"2 Goti","winnerPrizeData":[{"Rank":1,"amount":"45.00"}],"playerInfo":[{"id":"6879c861fd3aa3ab3baa7606","username":"guest_75042","seatIndex":0,"tokenColor":"red","colorIndex":2,"tokens":[{"id":0,"startPos":0,"currentPos":0,"distance":0,"inAtTurn":-1,"color":"red"},{"id":1,"startPos":1,"currentPos":1,"distance":0,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":2,"distance":0,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":3,"distance":0,"inAtTurn":-1,"color":"red"}],"mobile":"xxxxx44866","profilePic":"","avatar":0},{"id":null,"username":null,"seatIndex":1,"tokenColor":"blue","colorIndex":1,"profilePic":null,"avatar":null},{"id":"66b49e9bd446f70660b6e1a5","username":"Rajdip","seatIndex":2,"tokenColor":"yellow","colorIndex":0,"tokens":[{"id":8,"startPos":8,"currentPos":8,"distance":0,"inAtTurn":-1,"color":"yellow"},{"id":9,"startPos":9,"currentPos":9,"distance":0,"inAtTurn":-1,"color":"yellow"},{"id":10,"startPos":10,"currentPos":10,"distance":0,"inAtTurn":-1,"color":"yellow"},{"id":11,"startPos":11,"currentPos":11,"distance":0,"inAtTurn":-1,"color":"yellow"}],"mobile":"xxx89877","profilePic":"/admin/images/bot-images/1.png","avatar":0},{"id":null,"username":null,"seatIndex":3,"tokenColor":"green","colorIndex":3,"profilePic":null,"avatar":null}]}]
+
+GameStarted Broadcast response  :["GameStarted",{"message":"starting game","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[]}],"isrecentDiceValue":true}]
+
+ Emit name    RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203677","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+2yr9XSo1CayjmEG1tTIntw=="}
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203677"}]
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[]}],"isrecentDiceValue":true}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203682","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+JV7TL4HsyysrbnvLi5rRjQ=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203682"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4]}],"isrecentDiceValue":true}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":0,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6]}],"isrecentDiceValue":true}]
+
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":1,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203693","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+cBFepzgvGQfNCHsJXS2FBg=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203693"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":0,"startPos":0,"currentPos":0,"distance":0,"inAtTurn":-1,"color":"red"},{"id":1,"startPos":1,"currentPos":1,"distance":0,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":2,"distance":0,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":3,"distance":0,"inAtTurn":-1,"color":"red"}],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+jW926GACvelNPcl1z5Cmzw=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":0,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,6]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203697","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+vs7jNcPgnROlHNZ/iBkRuw=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203697"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":1,"stepsToMove":4,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,6,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":2,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+It's not your turn!
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,6,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1,3]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203705","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr++4Fnr5rPD4lu5DK7x/CLWg=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203705"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":5,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,6,4,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1,3]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":5,"stepsToMove":2,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,6,4,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1,3,2]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203711","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+rmzoXp+0hOLVrX57J1zD5Q=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203711"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":0,"startPos":0,"currentPos":0,"distance":0,"inAtTurn":-1,"color":"red"},{"id":1,"startPos":1,"currentPos":1,"distance":0,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":2,"distance":0,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":21,"distance":6,"inAtTurn":-1,"color":"red"}],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 2,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+J7Msk0iIvK+POuwyjxJcXw=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":2,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":0,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,6,4,1,6]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1,3,2]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203715","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+pDDqZa8iB+Rg0WaTrknn/w=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203715"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":21,"distance":6,"inAtTurn":-1,"color":"red"}],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+5/1+9nlwFtriynhrdm1wIg=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":6,"stepsToMove":5,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,6,4,1,6,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1,3,2]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":7,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+It's not your turn!
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,6,4,1,6,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1,3,2,1]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203723","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+gWCK4jESdGOn5qjOfUymCA=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203723"}]
+
+
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":26,"distance":11,"inAtTurn":-1,"color":"red"}],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+WRflrngCGUfiWXzA/pYqvA=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":11,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[3,6,4,1,6,5,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1,3,2,1]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":8,"stepsToMove":4,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[3,6,4,1,6,5,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1,3,2,1,4]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203731","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+CYDg0hPke3F3kKFjh110rA=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203731"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":27,"distance":12,"inAtTurn":-1,"color":"red"}],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+626IWZF+GcUb+IDWgD8RWQ=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":12,"stepsToMove":4,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[6,4,1,6,5,1,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,1,3,2,1,4]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":12,"stepsToMove":6,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[6,4,1,6,5,1,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[6,1,3,2,1,4,6]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":18,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[6,4,1,6,5,1,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,3,2,1,4,6,3]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203744","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+io4c/tSEY0iRtmrE8FL5ag=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203744"}]
+
+
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":31,"distance":16,"inAtTurn":-1,"color":"red"}],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+iQwqkBF6+kjdZVz8U4C0eA=="}
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+O7QitVCDZyWfLfvyFY0sYQ=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":16,"stepsToMove":2,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,1,6,5,1,4,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,3,2,1,4,6,3]}],"isrecentDiceValue":true}]
+
+PlayerAction respnose  : [{"status":"fail","result":null,"data":{},"message":"Something went wrong."}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":21,"stepsToMove":5,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,1,6,5,1,4,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,2,1,4,6,3,5]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203753","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+lYJ3pqCTANjTA4BnT97Brg=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203753"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":33,"distance":18,"inAtTurn":-1,"color":"red"}],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+EFnSq2acEJyXrAmL0Ssrzg=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":18,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,6,5,1,4,2,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,2,1,4,6,3,5]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":26,"stepsToMove":2,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,6,5,1,4,2,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[2,1,4,6,3,5,2]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203761","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+38HzQai16dyCB8RwrhMr5g=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203761"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":0,"startPos":0,"currentPos":0,"distance":0,"inAtTurn":-1,"color":"red"},{"id":1,"startPos":1,"currentPos":1,"distance":0,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":36,"distance":21,"inAtTurn":-1,"color":"red"}],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+Xf9kB45L5HC1gJ/WMPH/DA=="}
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+4nspw1xZ01dIu9/pqH+n3g=="}
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":0,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[6,5,1,4,2,3,6]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[2,1,4,6,3,5,2]}],"isrecentDiceValue":true}]
+
+PlayerAction respnose  : [{"status":"fail","result":null,"data":{},"message":"Something went wrong."}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203767","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+f/z5AYvT7Kzuv6Ms640f7g=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203767"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":36,"distance":21,"inAtTurn":-1,"color":"red"}],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+HZZCKFlodreFUPb6Nz1eTw=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":21,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[5,1,4,2,3,6,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[2,1,4,6,3,5,2]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":28,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[5,1,4,2,3,6,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,4,6,3,5,2,1]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203775","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+iLlIC88ndpptPJg1aASuRg=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203775"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":39,"distance":24,"inAtTurn":-1,"color":"red"}],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+SHqOfhfbbjwh/iwRHBqtxQ=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":24,"stepsToMove":5,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,4,2,3,6,3,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,4,6,3,5,2,1]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":29,"stepsToMove":2,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,4,2,3,6,3,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,3,5,2,1,2]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203784","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+VG0tg7lBq4ioNsY18O8aiw=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203784"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":44,"distance":29,"inAtTurn":-1,"color":"red"}],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+sI6u6BIgxtWbgqB1Vn5l1w=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":1,"stepsToMove":4,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+PlayerKill Broadcast response  :["PlayerKill",{"attacker":{"playerId":"6879c861fd3aa3ab3baa7606","tokenId":1,"currentDistance":9},"killedPlayer":{"playerId":"66b49e9bd446f70660b6e1a5","tokenId":8,"currentDistance":31},"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,2,3,6,3,5,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,3,5,2,1,2]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203790","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+1qES2D3siN5FbIIx5g1+IQ=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203790"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":20,"distance":5,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":44,"distance":29,"inAtTurn":-1,"color":"red"}],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+daQow0Mrg4HvBee3rkDJeg=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":29,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,6,3,5,4,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,6,3,5,2,1,2]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,6,3,5,4,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[6,3,5,2,1,2,3]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203798","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+DSjZm4EpARB+xyP/Fx8CUg=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203798"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":20,"distance":5,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":45,"distance":30,"inAtTurn":-1,"color":"red"}],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+CxECO9gB+mDfpbMt/Y4fVw=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":30,"stepsToMove":5,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[3,6,3,5,4,1,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[6,3,5,2,1,2,3]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[3,6,3,5,4,1,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,5,2,1,2,3,4]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203806","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+JvcQ73SHdoawcme6ih/lFg=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203806"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":0,"startPos":0,"currentPos":0,"distance":0,"inAtTurn":-1,"color":"red"},{"id":1,"startPos":1,"currentPos":20,"distance":5,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":50,"distance":35,"inAtTurn":-1,"color":"red"}],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+7ILlVfb1BrelalkNR9gMUw=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":35,"stepsToMove":6,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[6,3,5,4,1,5,6]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,5,2,1,2,3,4]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203811","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+1N+0mEeIIuPMe3UsSneC9w=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203811"}]
+
+
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":20,"distance":5,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":56,"distance":41,"inAtTurn":-1,"color":"red"}],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name  WinnerPlayers   : {"playerId": "6879c861fd3aa3ab3baa7606","productName": "Ludo 3.0 Ludo 3.0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+1N+0mEeIIuPMe3UsSneC9w=="}
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+innyjS0RQzFCEo8N3EcZIw=="}
+
+WinnerPlayers  response  :[{"status":"success","result":[{"playerId":"66389e7c994b42045dabaeb5","playerName":"Jezmin","amount":12},{"playerId":"6879c861fd3aa3ab3baa7606","playerName":"guest_75042","amount":12},{"playerId":"66389e2c994b42045dabae9a","playerName":"Zerlyn","amount":7},{"playerId":"6879c861fd3aa3ab3baa7606","playerName":"guest_75042","amount":7},{"playerId":"66b49e9bd446f70660b6e1a5","playerName":"Rajdip","amount":7},{"playerId":"66b49e9bd446f70660b6e1a5","playerName":"Rajdip","amount":7},{"playerId":"66389dce994b42045dabae68","playerName":"Rozer","amount":7},{"playerId":"6879c861fd3aa3ab3baa7606","playerName":"guest_75042","amount":12},{"playerId":"66b49e9bd446f70660b6e1a5","playerName":"Rajdip","amount":2600},{"playerId":"6638cd2b994b42045dabc1ba","playerName":"Tamela G. Hutchinson","amount":780},{"playerId":"62945ebb53d4a10fb56de6eb","playerName":"plr2","amount":4.5},{"playerId":"62945ebb53d4a10fb56de6eb","playerName":"plr2","amount":4.5}],"message":"Data Found"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":41,"stepsToMove":5,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[3,5,4,1,5,6,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,5,2,1,2,3,4]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[3,5,4,1,5,6,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[5,2,1,2,3,4,5]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203819","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+9nQIzOYLNqBWQa6UPOM6Rg=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203819"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":20,"distance":5,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":61,"distance":46,"inAtTurn":-1,"color":"red"}],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+MzfzqD/1DWFDQsYbhLVH4Q=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":46,"stepsToMove":2,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[5,4,1,5,6,5,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[5,2,1,2,3,4,5]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":0,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[5,4,1,5,6,5,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[2,1,2,3,4,5,6]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":1,"stepsToMove":2,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[5,4,1,5,6,5,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,2,3,4,5,6,2]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203830","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+Ev75ccbpIxh3dcsrDGRlsw=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203830"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":20,"distance":5,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":63,"distance":48,"inAtTurn":-1,"color":"red"}],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+WQXMGcgD+QJlCBLOfw5yNg=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":48,"stepsToMove":2,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,1,5,6,5,2,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,2,3,4,5,6,2]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":3,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,1,5,6,5,2,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[2,3,4,5,6,2,1]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203839","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+MWTW+b2G1nll4I71d5FwEg=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203839"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":20,"distance":5,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":65,"distance":50,"inAtTurn":-1,"color":"red"}],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+SPPeEo/Zv1ScghrXG7XAaA=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":50,"stepsToMove":4,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,5,6,5,2,2,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[2,3,4,5,6,2,1]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":4,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,5,6,5,2,2,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,4,5,6,2,1,3]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203847","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+sdBxk/DtDqD4Izo22Lg8vQ=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203847"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":20,"distance":5,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"},{"id":3,"startPos":3,"currentPos":70,"distance":54,"inAtTurn":-1,"color":"red"}],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 3,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+QI7EpJ5IwzxdDR4AvLIPeg=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":3,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":54,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+EndOfJourney Broadcast response  :["EndOfJourney",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+It's not your turn!
+
+It's not your turn!
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[5,6,5,2,2,4,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,4,5,6,2,1,3]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203853","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+1vwQmASYlntXot/TMCk5Mw=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203853"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":20,"distance":5,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+frCmPBrS/EhNdG0HMuCMKg=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":5,"stepsToMove":2,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[6,5,2,2,4,3,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,4,5,6,2,1,3]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":7,"stepsToMove":5,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[6,5,2,2,4,3,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,5,6,2,1,3,5]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203863","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+p8HMrjQOQv8faoOsekYkSw=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203863"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":0,"startPos":0,"currentPos":0,"distance":0,"inAtTurn":-1,"color":"red"},{"id":1,"startPos":1,"currentPos":22,"distance":7,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+M/YkNhhFYXcz6F+niYdg1Q=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":7,"stepsToMove":6,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[5,2,2,4,3,2,6]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,5,6,2,1,3,5]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203868","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+EhEpqF+YitYNIQ5A3qcS4Q=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203868"}]
+
+
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":28,"distance":13,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+shHhW99SUvRWdOGfP3Nb9w=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":13,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+It's not your turn!
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,2,4,3,2,6,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,5,6,2,1,3,5]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":12,"stepsToMove":5,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,2,4,3,2,6,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[5,6,2,1,3,5,5]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203879","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr++6ejMr+LzbPMhZ4jKDN4Zw=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203879"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":29,"distance":14,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+sewfq9kZs7J8YloqHiqWgQ=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":14,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,4,3,2,6,1,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[5,6,2,1,3,5,5]}],"isrecentDiceValue":true}]
+
+It's not your turn!
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":17,"stepsToMove":6,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,4,3,2,6,1,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[6,2,1,3,5,5,6]}],"isrecentDiceValue":true}]
+
+It's not your turn!
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":23,"stepsToMove":4,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,4,3,2,6,1,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[2,1,3,5,5,6,4]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203892","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+A0a6rht69yffOXm9aLzrfQ=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203892"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":30,"distance":15,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+ZQPSZORzY5W1BXmq0CyR9Q=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":15,"stepsToMove":4,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,3,2,6,1,1,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[2,1,3,5,5,6,4]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":27,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,3,2,6,1,1,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,3,5,5,6,4,3]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203900","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+1+aRiPqfKolEm47xmmWu2g=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203900"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":34,"distance":19,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+NqHDqD/xlnFwT2o/ZTpQ+A=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":19,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[3,2,6,1,1,4,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,3,5,5,6,4,3]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":30,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[3,2,6,1,1,4,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,5,5,6,4,3,1]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203908","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+bHKBsK9z1qwxPemS7QpyAg=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203908"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":37,"distance":22,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+Gl/sz8O6S8nzUd1MTL9U1Q=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":22,"stepsToMove":4,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,6,1,1,4,3,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,5,5,6,4,3,1]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":31,"stepsToMove":6,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,6,1,1,4,3,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[5,5,6,4,3,1,6]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":37,"stepsToMove":2,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,6,1,1,4,3,4]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[5,6,4,3,1,6,2]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203922","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+lE5c9TPaX1AeBEhjVIl8dA=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203922"}]
+
+
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":41,"distance":26,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+c1AZGy4PCAFVpRU1NGGrGg=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":26,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[6,1,1,4,3,4,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[5,6,4,3,1,6,2]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":39,"stepsToMove":4,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[6,1,1,4,3,4,1]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[6,4,3,1,6,2,4]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203931","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+WPCPN/tIIDafYzwYdzzO6Q=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203931"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":42,"distance":27,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+SAtS8C+i7j28g6cCpWf/qA=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":27,"stepsToMove":2,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,1,4,3,4,1,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[6,4,3,1,6,2,4]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":43,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,1,4,3,4,1,2]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,3,1,6,2,4,3]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203941","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+X3JD17HLqUtD12dc1O/PWw=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203941"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":44,"distance":29,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+B2TRQm3wYmq1Hu0owuZ0Qw=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":29,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,4,3,4,1,2,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,3,1,6,2,4,3]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":4,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":46,"stepsToMove":4,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,4,3,4,1,2,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,1,6,2,4,3,4]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203951","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+BMhoJMZ28TLJ2hIjXavi1A=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203951"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":47,"distance":32,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr++INGmySISovhh5f1i9MVvA=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":32,"stepsToMove":5,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,3,4,1,2,3,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,1,6,2,4,3,4]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":50,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,3,4,1,2,3,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,6,2,4,3,4,1]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203960","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+YuT1bULcXwkHYuVWbwsw6g=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203960"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":0,"startPos":0,"currentPos":0,"distance":0,"inAtTurn":-1,"color":"red"},{"id":1,"startPos":1,"currentPos":52,"distance":37,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+U8aXk4XTcuA3BxzDOHarwQ=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":37,"stepsToMove":6,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+It's not your turn!
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[3,4,1,2,3,5,6]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,6,2,4,3,4,1]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203966","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+juFZ5L+h+s0W+Bcsa8oiRQ=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203966"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":58,"distance":43,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+FEjC1skslZ+GksELN6dJkg=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":43,"stepsToMove":5,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,1,2,3,5,6,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[1,6,2,4,3,4,1]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":6,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":8,"playerId":"66b49e9bd446f70660b6e1a5","currentDistance":51,"stepsToMove":6,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+EndOfJourney Broadcast response  :["EndOfJourney",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,1,2,3,5,6,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[6,2,4,3,4,1,6]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[4,1,2,3,5,6,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[2,4,3,4,1,6,5]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203980","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+PFjSvjMdWst/bLXLZV58SQ=="}
+
+
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203980"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":63,"distance":48,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":3,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+bylcGA7912FiEi51RGEmaw=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":48,"stepsToMove":3,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,2,3,5,6,5,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[2,4,3,4,1,6,5]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[1,2,3,5,6,5,3]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,3,4,1,6,5,5]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203987","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+0+KpdHzs9Uz+V+iaD7I0uw=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203987"}]
+
+
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":66,"distance":51,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":5,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+VWJ39NN1rR1cnqkBTi5O1g=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":51,"stepsToMove":5,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"66b49e9bd446f70660b6e1a5","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,5,6,5,3,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[4,3,4,1,6,5,5]}],"isrecentDiceValue":true}]
+
+SkipMove Broadcast response  :["skipMove",{"playerId":"66b49e9bd446f70660b6e1a5","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[],"diceValue":2,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"66b49e9bd446f70660b6e1a5"}]
+
+KeepCurrentPlayer Broadcast response  :["KeepCurrentPlayer",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+OnTurnTimer Broadcast response  :["OnTurnTimer",{"playerId":"6879c861fd3aa3ab3baa7606","timer":30,"boardId":"69185a4efd3aa3ab3b6b0cb0","maxTimer":30,"diceRolled":false,"turnPlayerData":{},"recentDiceValue":[{"playerId":"6879c861fd3aa3ab3baa7606","recentDiceValue":[2,3,5,6,5,3,5]},{"playerId":"66b49e9bd446f70660b6e1a5","recentDiceValue":[3,4,1,6,5,5,2]}],"isrecentDiceValue":true}]
+
+ Emit name     RollDice     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","diceValue": "","diceKey": "1763203996","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+56P/9gY32uKWu454AVOq2g=="}
+
+
+
+RollingDice Broadcast response  :["rollingDice",{"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606","diceKey":"1763203996"}]
+
+
+
+RollDiceDetails Broadcast response  :["rollDiceDetails",{"readyToMove":[{"id":1,"startPos":1,"currentPos":72,"distance":56,"inAtTurn":-1,"color":"red"},{"id":2,"startPos":2,"currentPos":16,"distance":1,"inAtTurn":-1,"color":"red"}],"diceValue":1,"boardId":"69185a4efd3aa3ab3b6b0cb0","playerId":"6879c861fd3aa3ab3baa7606"}]
+
+RollDice respnose  : [{"status":"success","message":"Roll Dice successfully.","result":{"message":"Roll Dice Successfully ","isTotalSixesZero":false}}]
+
+
+
+ Emit name      PlayerAction     : {"tokenId": 1,"playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","boardId": "69185a4efd3aa3ab3b6b0cb0","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+crjbK3qOhV82n2wm70L6+A=="}
+
+playerActionDetails Broadcast response  :["playerActionDetails",{"tokenId":1,"playerId":"6879c861fd3aa3ab3baa7606","currentDistance":56,"stepsToMove":1,"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerAction respnose  : [{"status":"success","result":null,"data":{"status":"success","message":"Player Action Successfully "},"message":"Player action successful."}]
+
+EndOfJourney Broadcast response  :["EndOfJourney",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+PlayerGameWin Broadcast response  :["PlayerGameWin",{"winners":{"playerId":"6879c861fd3aa3ab3baa7606","playerName":"guest_75042","mobile":"+91 40********","amount":45,"rank":1,"winnerSeatIndex":0,"commission":5},"boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+GameFinished Broadcast response  :["GameFinished",{"winners":{"playerId":"6879c861fd3aa3ab3baa7606","playerName":"guest_75042","mobile":"+91 40********","amount":45,"rank":1,"winnerSeatIndex":0,"commission":10},"boardId":"69185a4efd3aa3ab3b6b0cb0","shareMessage":"-"}]
+
+ Emit name     LeaveRoom     : {"playerId": "6879c861fd3aa3ab3baa7606","boardId": "69185a4efd3aa3ab3b6b0cb0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+K3JeTxg5C54gU6E92/6+SQ=="}
+
+PlayerLeft Broadcast response  :["PlayerLeft",{"playerId":"6879c861fd3aa3ab3baa7606","boardId":"69185a4efd3aa3ab3b6b0cb0"}]
+
+LeaveRoom respnose  : [{"status":"success","message":"Player Leave successfully.","result":null}]
+
+GetServerMaintenanceStatus - {"playerId": "6879c861fd3aa3ab3baa7606","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+K3JeTxg5C54gU6E92/6+SQ=="}
+
+ Emit name     GetServerMaintenanceStatus     : {"playerId": "6879c861fd3aa3ab3baa7606","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+K3JeTxg5C54gU6E92/6+SQ=="}
+
+ Emit name  updateUserSocketId    : {"userId": "6879c861fd3aa3ab3baa7606","playerId": "6879c861fd3aa3ab3baa7606","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+K3JeTxg5C54gU6E92/6+SQ=="}
+
+inviteAndEarnShareText  : True
+
+ Emit name  InviteAndEarnShareText   : {"playerId": "6879c861fd3aa3ab3baa7606"}
+
+ Emit name  checkRunningGame   : {"playerId": "6879c861fd3aa3ab3baa7606","productName": "Ludo 3.0 Ludo 3.0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+K3JeTxg5C54gU6E92/6+SQ=="}
+
+ Emit name  onlineUserList   : {"playerId": "6879c861fd3aa3ab3baa7606","productName": "Ludo 3.0 Ludo 3.0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+K3JeTxg5C54gU6E92/6+SQ=="}
+
+Is Wallet Enable :True
+
+
+CheckServerMaitenanceStatus response: [{"status":"success","result":{"maintenanceModeActivated":false},"message":"Maintenance status send successfully"}]
+
+inviteAndEarnShareText  : [{"status":"success","message":"Invite and Earn share text sent successfully.","result":{"shareMessage":"-","referralCode":"8PQPUVFMAQ"}}]
+
+Response String Replaced : [{"status":"success","message":"Invite and Earn share text sent successfully.","result":{"shareMessage":"-","referralCode":"8PQPUVFMAQ"}}]
+
+
+
+checkRunningGame  response  :[{"status":"fail","result":null,"message":"No Running Game Found!"}]
+
+ Emit name  onlineUserList   : {"playerId": "6879c861fd3aa3ab3baa7606","productName": "Ludo 3.0 Ludo 3.0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+j0uy/AwyynkUaupNmYltOQ=="}
+
+ Emit name  onlineUserList   : {"playerId": "6879c861fd3aa3ab3baa7606","productName": "Ludo 3.0 Ludo 3.0","deviceId": "02af5fb27233f0be3ee206c39091732931612f7e","authToken": "X6IjksgBnZd21j7Kq0E99Y78qMOHxbrGNdVdfnNhOvGmAwvnW8ASMKhCGOtM8dr+jjHUWEWdyoZ8G58Vhx9XDg=="}
+
+
+
