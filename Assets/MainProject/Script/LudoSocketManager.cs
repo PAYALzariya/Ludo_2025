@@ -20,7 +20,7 @@ public class LudoSocketManager : MonoBehaviour
 
     // EventName -> List of callbacks
     private Dictionary<string, Action<string>> eventHandlers = new Dictionary<string, Action<string>>();
-    private SocketManager Manager;
+    public  SocketManager Manager;
     private void Awake()
     {
         Application.runInBackground = true;

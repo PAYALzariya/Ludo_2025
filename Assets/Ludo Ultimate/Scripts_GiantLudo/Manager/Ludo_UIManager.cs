@@ -8,7 +8,6 @@ public class Ludo_UIManager : MonoBehaviour
 {
 
     #region Public_Variabels
-    public bool chatLudo = false;
     public static Ludo_UIManager instance;
     public SERVER server = SERVER.Production;
     //public GameObject demoScreen;

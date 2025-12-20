@@ -19,6 +19,10 @@ public class PlayOnline : MonoBehaviour
     public PlayOnlineInsufficientBalancePopup insufficientBalancePopup;
     public PlayOnlineUnlockTablePopup unlockTablePopup;
     public Loader loader;
+    [Space]
+    [Header("Chat Panels Ludo Object")]
+    public TextMeshProUGUI quickPlayerTxt;
+    public GameObject inviteHostPanel;
     #endregion
 
     #region Private_Variables
@@ -131,7 +135,7 @@ public class PlayOnline : MonoBehaviour
         //    OnNumbersOfGotisSelected(b, 4);
         //});
         GameStaticData.numberGoties = 1;
-        if (!Ludo_UIManager.instance.chatLudo)
+        if (!ServerSocketManager.instance.chatLudo)
         {
             CallTableListEvent();
         }
@@ -195,7 +199,7 @@ public class PlayOnline : MonoBehaviour
         if (b)
         {
             GameStaticData.numberGoties = index;
-            if (!Ludo_UIManager.instance.chatLudo)
+            if (!ServerSocketManager.instance.chatLudo)
             {
                 CallTableListEvent();
             }
@@ -208,7 +212,20 @@ public class PlayOnline : MonoBehaviour
         GameStaticData.gamesType = GamesType.QuickPlay;
         GameStaticData.playerCount = i;
         this.Open();
+        if (ServerSocketManager.instance.chatLudo) {
+            quickPlayerTxt.text = "Quick " + i.ToString();
+        }
     }
+    public void OnClickInviteButton()
+    {
+        inviteHostPanel.SetActive(true);
+
+    }
+    public void OnClickInviteButtonClose()
+    {
+        inviteHostPanel.SetActive(false);
+    }
+
     public void OpenGame()
     {
         this.Close();
@@ -230,7 +247,7 @@ public class PlayOnline : MonoBehaviour
     #region Private_Methods
     private void OnReconnect()
     {
-        if (!Ludo_UIManager.instance.chatLudo)
+        if (!ServerSocketManager.instance.chatLudo)
             CallTableListEvent();
     }
 

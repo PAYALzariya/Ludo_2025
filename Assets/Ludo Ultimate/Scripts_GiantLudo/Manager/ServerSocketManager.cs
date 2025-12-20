@@ -1,22 +1,19 @@
 ﻿using BestHTTP.SocketIO;
 using System;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class ServerSocketManager : MonoBehaviour
 {
+    public bool chatLudo = false;
     public string accessToken, playerId, uniqueId;
     #region Public_Variables
     public static ServerSocketManager instance;
     public static OnConnectionStateChanged onConnected;
     public static OnConnectionStateChanged OnReconnected;
-    //public Server server = Server.Development;
     public bool isCheckDummy;
     public SocketManager socketManager;
     #endregion
-  //  public bool useDummySocket = true;
-  //  public ISocket AppSocket;
-  //  private DummyRootSocket dummySocket;
-
     #region Private_Variables
 
     private const string SOCKET_EVENT_CONNECT = "connect";
@@ -36,21 +33,34 @@ public class ServerSocketManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-        //    this.transform.parent = null;
-          //  DontDestroyOnLoad(this);
+            //    this.transform.parent = null;
+            //  DontDestroyOnLoad(this);
         }
-       /* else
-        {
-            DestroyImmediate(this.gameObject);
-        }*/
+        /* else
+         {
+             DestroyImmediate(this.gameObject);
+         }*/
         Debug.Log("awake socktmanager");
         //   ConnectToSocketServer();
-       // ConnectWithAuthObject();
+        // ConnectWithAuthObject();
     }
     private void Start()
     {
-        ConnectWithAuthObject();
-      SetupAllListeners();
+        if (!chatLudo)
+        {
+            ConnectWithAuthObject();
+        }
+        else
+        {
+            Manager = LudoSocketManager.Instance.Manager;
+            rootSocket = Manager.GetSocket();
+            Debug.Log(Manager.Uri);
+            Manager.Open();
+            accessToken = DataManager.instance.AccessToken;
+            playerId = DataManager.instance.userId;
+            uniqueId = DataManager.instance.uniqueId;
+        }
+        SetupAllListeners();
     }
     #endregion
 
@@ -59,13 +69,13 @@ public class ServerSocketManager : MonoBehaviour
     private void SetupAllListeners()
     {
         if (RootSocket == null) return;
-     //   getAllTable();
+        //   getAllTable();
 
     }
     void ConnectWithAuthObject()
     {
         Debug.Log("ConnectWithAuthObject");
-        
+
         var options = new SocketOptions();
         //PlatformSupport.Collections.ObjectModel.ObservableDictionary
         // Send token as auth object
@@ -90,7 +100,7 @@ public class ServerSocketManager : MonoBehaviour
             playerId = DataManager.instance.userId;
             uniqueId = DataManager.instance.uniqueId;
         }
-       
+
         Manager = new SocketManager(new Uri(GameConstants.Socket_URL), options);
         rootSocket = Manager.GetSocket();
         Debug.Log(Manager.Uri);
@@ -98,20 +108,20 @@ public class ServerSocketManager : MonoBehaviour
 
         Debug.Log($"Connecting to: {new Uri(GameConstants.Socket_URL)}");
         RootSocket.On(SOCKET_EVENT_CONNECT, OnConnect);
-         RootSocket.On(SOCKET_EVENT_RECONNECT, OnReconnect);
-          RootSocket.On(SOCKET_EVENT_RECONNECT_ATTEMPT, OnReconnectAttempt);
-          RootSocket.On(SOCKET_EVENT_RECONNECT_FAILED, OnReconnectFailed);
-          RootSocket.On(SOCKET_EVENT_DISCONNECT, OnDisconnected);
+        RootSocket.On(SOCKET_EVENT_RECONNECT, OnReconnect);
+        RootSocket.On(SOCKET_EVENT_RECONNECT_ATTEMPT, OnReconnectAttempt);
+        RootSocket.On(SOCKET_EVENT_RECONNECT_FAILED, OnReconnectFailed);
+        RootSocket.On(SOCKET_EVENT_DISCONNECT, OnDisconnected);
 
     }
-  
+
     public void SetupAllListenersDummy(DummyRootSocket ds)
     {
-     /*   ds.On("StartTimer", OnStartTimer);
-        ds.On("RollDiceDetails", OnRollDiceDetails);
-        ds.On("playerActionDetails", OnPlayerActionDetails);
-        ds.On("UpdateTableListingData", OnUpdateTableListingData);
-        ds.On("GameFinished", OnGameFinished);*/
+        /*   ds.On("StartTimer", OnStartTimer);
+           ds.On("RollDiceDetails", OnRollDiceDetails);
+           ds.On("playerActionDetails", OnPlayerActionDetails);
+           ds.On("UpdateTableListingData", OnUpdateTableListingData);
+           ds.On("GameFinished", OnGameFinished);*/
         // ... register all
     }
 
@@ -140,9 +150,9 @@ public class ServerSocketManager : MonoBehaviour
     private void OnConnect(Socket socket, Packet packet, object[] args)
     {
         Debug.Log($"<b><color=#158525>We are connected:</color></b> {socket.Manager.Uri}");
-       Ludo_UIManager.instance.homeScreen.CheckFunctionOnEnable();
-      //    Game.Lobby.ConnectToSocket();
-    //    Game.Lobby.socketManager.Open();
+        Ludo_UIManager.instance.homeScreen.CheckFunctionOnEnable();
+        //    Game.Lobby.ConnectToSocket();
+        //    Game.Lobby.socketManager.Open();
         onConnected?.Invoke(true);
     }
     #endregion
@@ -157,5 +167,5 @@ public class ServerSocketManager : MonoBehaviour
     public Socket RootSocket => rootSocket;
 
     #endregion
-    
+
 }
