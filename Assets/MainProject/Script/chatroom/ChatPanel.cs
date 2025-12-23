@@ -58,7 +58,7 @@ public class ChatPanel : MonoBehaviour
         {
             float tmplentgh = HomePanel.instance.chatManager.CurrentRoom.data.room.maxParticipants - participantsSeatList.Count;
             int looplength = Mathf.RoundToInt(tmplentgh);
-            CloneChatRoomInvitList(looplength);
+            CloneChatRoomSeatInvitList(looplength);
         }
 
     }
@@ -66,21 +66,14 @@ public class ChatPanel : MonoBehaviour
     {
         foreach (var item in participantsSeatList)
         {
-            item.Value.centerIcon.sprite = DataManager.instance.spriteMaganer.unlocksprite;
-            item.Value.isSeated = false;
-            item.Value.IsSeatLocked = false;
-            item.Value.seatownerUserId = null;
-            item.Value.centerIcon.gameObject.SetActive(true);
-            item.Value.userProfile.gameObject.SetActive(false);
-            item.Value.sideIcon.gameObject.SetActive(false);    
-            item.Value.centerIcon.sprite= DataManager.instance.spriteMaganer.unlocksprite;
-            item.Value.labelText.text = item.Value.seatNo.ToString();
+            
+            item.Value.ClearSeat();
+            
         }
         Selectdseatitem = null;
     }
-    internal void CloneChatRoomInvitList(int looplength)
+    internal void CloneChatRoomSeatInvitList(int looplength)
     {
-
         Debug.Log("CloneChatRoomInvitList..." + HomePanel.instance.chatManager.CurrentRoom.data.room.maxParticipants);
         for (int i = 0; i < looplength; i++)
         {
@@ -96,8 +89,10 @@ public class ChatPanel : MonoBehaviour
             item.seatNo = i + 1;
             Debug.Log("SEAT NO::" + item.seatNo);
             item.labelText.text = item.seatNo.ToString();
-            item.button.onClick.AddListener(() => OnParticipantButtonClick(item));
+            item.button.onClick.AddListener(() => OnSeatButtonClick(item));
             participantsSeatList.Add(item.labelText.text, item);
+
+
 
 
         }
@@ -105,7 +100,7 @@ public class ChatPanel : MonoBehaviour
 
     }
     
-internal void OnParticipantButtonClick(ChatRoomInvit seatitem)
+internal void OnSeatButtonClick(ChatRoomInvit seatitem)
     {
         Debug.Log("OnParticipantButtonClick..." + hostProfile.userIshost);
 
@@ -164,12 +159,17 @@ internal void UpdateSeat(string seatno, string userid)
             
           Debug.Log("get seat:" + seatitem);
             seatitem.isSeated = true;
-        seatitem.centerIcon.gameObject.SetActive(false);
-        seatitem.userProfile.profilePic.sprite = participantData.profilePictureAsset.SpriteAssset;
-        seatitem.userProfile.frameImage.sprite = participantData.frameData.frameSprite;
-        seatitem.userProfile.gameObject.SetActive(true);
-        seatitem.labelText.text = participantData.username;
-        seatitem.seatownerUserId= userid;
+            seatitem.seatedUser = new SeatedUser
+            {
+                userId = participantData.id,
+                userName = participantData.username,
+                userProfilePic = participantData.profilePictureAsset.SpriteAssset,
+                userFramePic = participantData.frameData.frameSprite
+            };
+            seatitem.SetSeatedUser(seatitem.seatedUser);
+            
+       
+
         }
         else if(userid== HomePanel.instance.chatManager.OwnProfileData.id)
         {
@@ -198,32 +198,16 @@ internal void UpdateSeat(string seatno, string userid)
         {
             ChatRoomInvit seatitem=seat.Value;
 
-            if (seatitem.seatownerUserId== userid)
+            if (seatitem.seatedUser.userId== userid)
             {
 
-                Resetseat(seatitem.seatNo.ToString());
+                seatitem.ClearSeat();
 
 
             }   
         }
     }
-   internal void Resetseat(string seatno)
-    {
-        foreach (var seat in participantsSeatList)
-        {
-
-            ChatRoomInvit seatitem = seat.Value;
-            if (seatitem.seatNo.ToString()==seatno)
-            {
-                seatitem.isSeated = false;
-                seatitem.IsSeatLocked = false;
-                seatitem.seatownerUserId = null;
-                seatitem.centerIcon.gameObject.SetActive(true);
-                seatitem.userProfile.gameObject.SetActive(false);
-                seatitem.labelText.text = seatitem.seatNo.ToString();
-            }
-        }
-    }
+   
 
     // common funcation
     public void OnClickPanelCloseButton(GameObject panel)
