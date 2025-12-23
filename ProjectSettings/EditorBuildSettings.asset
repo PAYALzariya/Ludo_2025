@@ -6,16 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainProject/Scenes/RegistrationScreens.unity
-    guid: f7495f04957bb5447b297a37efb59e53
+    path: Assets/MainProject/Scenes/Bitcoin-Millionaire.unity
+    guid: c5bb8fe843d2ac14c9e6c03589a74b97
+  - enabled: 1
+    path: Assets/MainProject/Scenes/Bitcoin-Millionaire old code.unity
+    guid: 9f111af2853640e4bad09303d4f1f24c
+  - enabled: 1
+    path: Assets/MainProject/Scenes/GameScene.unity
+    guid: 5f269c99a0087724aa113d3318c3f731
   - enabled: 1
     path: Assets/MainProject/Scenes/MainScreen.unity
     guid: 1fa437239a01bb946a9279cd18a9f77b
   - enabled: 1
-    path: Assets/Ludo Ultimate/Ludo Ultimate.unity
-    guid: 2934600efb710ea4f8e3f142f9c6f7e7
+    path: Assets/MainProject/Scenes/RegistrationScreens.unity
+    guid: f7495f04957bb5447b297a37efb59e53
   - enabled: 1
-    path: Assets/MainProject/Scenes/Bitcoin-Millionaire.unity
-    guid: c5bb8fe843d2ac14c9e6c03589a74b97
+    path: Assets/MainProject/Scenes/test.unity
+    guid: 983f74d4c539e4a4cb521e5d60a7c674
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
